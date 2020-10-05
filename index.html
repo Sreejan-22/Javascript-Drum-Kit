@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="E" class="key" id="key_e">
+        <kbd>E</kbd>
+        <div class="sound">Crash</div>
+      </div>
+      <div data-key="R" class="key">
+        <kbd>R</kbd>
+        <div class="sound">Ride</div>
+      </div>
+      <div data-key="B" class="key">
+        <kbd>B</kbd>
+        <div class="sound">Kick</div>
+      </div>
+      <div data-key="I" class="key">
+        <kbd>I</kbd>
+        <div class="sound">Hi-Hat Open</div>
+      </div>
+      <div data-key="G" class="key">
+        <kbd>G</kbd>
+        <div class="sound">Mid Tom</div>
+      </div>
+      <div data-key="H" class="key">
+        <kbd>H</kbd>
+        <div class="sound">High Tom</div>
+      </div>
+      <div data-key="J" class="key" id="key_j">
+        <kbd>J</kbd>
+        <div class="sound">snare</div>
+      </div>
+    </div>
+
+    <audio
+      data-key="E"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/crash.wav"
+    ></audio>
+    <audio
+      data-key="R"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/ride.wav"
+    ></audio>
+    <audio
+      data-key="B"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"
+    ></audio>
+    <audio
+      data-key="I"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-open.wav"
+    ></audio>
+    <audio
+      data-key="G"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav"
+    ></audio>
+    <audio
+      data-key="H"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"
+    ></audio>
+    <audio
+      data-key="J"
+      src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav"
+    ></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
